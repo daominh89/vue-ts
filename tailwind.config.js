@@ -1,12 +1,12 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  purge: ["src/**/*.{js,ts,jsx,tsx}", "./index.html"],
-  darkMode: true, // or 'media' or 'class'
+  jit: "true",
+  content: ["./index.html", "./src/**/*.{vue,ts,tsx}"],
+  darkMode: true,
   theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
+    container: {
+      center: true,
+      padding: "2rem",
+    },
   },
   plugins: [],
 };
